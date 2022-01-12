@@ -1,0 +1,53 @@
+@tailwind base;
+@layer base {
+    body{
+        @apply bg-black overflow-x-hidden;
+    }
+}
+
+@tailwind components;
+
+@layer utilities {
+    .flex-center{
+        @apply flex justify-center items-center
+    }
+
+    .head-title{
+        @apply font-bold text-2xl text-white;
+    }
+
+    .p-title{
+        @apply font-bold text-text w-3/4 py-5;
+    }
+    .btn{
+        @apply text-white font-bold rounded bg-main py-3 px-2 hover:bg-red-400 duration-500
+    }
+
+    #aboutSection .container {
+        @apply grid grid-cols-1 md:grid-cols-2;
+    }
+
+    #aboutSection .container .img {
+        @apply flex justify-center md:justify-end gap-1;
+    }
+
+    #tv_section,
+    #share_section {
+        @apply py-5;
+    }
+
+    #tv_section .container,
+    #share_section .container {
+        @apply flex items-center flex-col md:flex-row text-left md:text-center;
+    }
+
+    #share_section .container {
+        @apply flex-col-reverse md:flex-row
+    }
+
+}
+
+
+
+@tailwind utilities;
+
