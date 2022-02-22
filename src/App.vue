@@ -12,7 +12,7 @@
             <h1 class = "head-title"> Shashety Cinema </h1>
             <p class = "p-title"> An entertainment platform for watching international and Arab films and series, with a daily update of the latest cinematic works </p>
             <button class = "btn"> Visit the website </button>
-            <h2 class = "head-title text-xl py-3"> You can get the APP </h2>
+            <h2 class = "head-title py-2" style=" font-size:18px"> You can get the APP </h2>
             <ul class = "flex items-center">
               <li class = "mr-2">
                 <a href="https://apps.apple.com/us/app/shashety/id1448378384">

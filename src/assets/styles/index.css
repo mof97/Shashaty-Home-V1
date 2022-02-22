@@ -17,14 +17,14 @@
     }
 
     .p-title{
-        @apply font-bold text-text w-3/4 py-5;
+        @apply  text-text w-3/4 py-5;
     }
     .btn{
-        @apply text-white font-bold rounded bg-main py-3 px-2 hover:bg-red-400 duration-500
+        @apply text-white font-bold rounded bg-main py-2 px-3 hover:bg-red-400 duration-500
     }
 
     #aboutSection .container {
-        @apply grid grid-cols-1 md:grid-cols-2;
+        @apply grid grid-cols-1 md:grid-cols-2 gap-5;
     }
 
     #aboutSection .container .img {
