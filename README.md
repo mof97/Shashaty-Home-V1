@@ -1,4 +1,4 @@
-# halsast-proj
+# Shashaty Home
 
 ## Project setup
 ```
